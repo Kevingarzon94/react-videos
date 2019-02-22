@@ -7,4 +7,4 @@ import Media from './src/playlist/components/media';
 
 const app = document.getElementById('app')
 
-render(<Media title="¿Que Es El Bitcoin?"/>, app);
+render(<Media title="¿Que Es El Bitcoin?" images="./images/covers/bitcoin.jpg" author="Kevin Garzon"/>, app);
